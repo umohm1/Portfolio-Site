@@ -1,0 +1,21 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #EFF1F7;
+  
+}
+.content {
+  grid-area: content;
+  background: url(images/background-image.png);
+}
+.sidebar {
+  grid-area: sidebar;
+  background: linear-gradient(to right,
+  rgba(249,107,142,1),
+  rgba(218, 103, 230, 1),
+  rgba(130,125,253,1));
+  justify-content: center;
+}
+.footer {
+  grid-area: footer;
+  background: white;
+}
